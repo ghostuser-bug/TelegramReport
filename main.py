@@ -76,7 +76,7 @@ def control(proxy, proxy_type, username):
     phone_input = form.find('input', id='support_phone')
 
     message = get_random_line('message.txt', username)
-    email = generate('gmail,hotmail')
+    email = generate('hotmail')
     phone = generate_random_phone_number()
 
     if message_input:
